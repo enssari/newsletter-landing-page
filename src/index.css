@@ -1,13 +1,10 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Crimson+Text&family=Dancing+Script&family=Dosis:wght@200&family=Handjet:wght@300&family=Inconsolata:wght@200;300&family=Inter:wght@300&family=Josefin+Sans:wght@700&family=Lato&family=Mukta:wght@200&family=Nanum+Gothic&family=Noto+Serif&family=Nunito:wght@300&family=Open+Sans:wght@400;500&family=Phudu&family=Poppins:wght@300&family=Qwitcher+Grypen:wght@400;700&family=Rajdhani:wght@300&family=Roboto:wght@100;300;400;500&family=Tulpen+One&family=Ubuntu:wght@300&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(235, 18%, 26%);
+    overflow-x: hidden;
 }
